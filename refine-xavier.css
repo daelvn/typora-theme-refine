@@ -4,12 +4,16 @@
 
 :root {
 
+  @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Beth+Ellen&family=Playfair+Display:wght@700&display=swap');
+
 /* Fonts */
   --ff-sans: -apple-system, BlinkMacSystemFont, "SF Pro", "SF Pro Text", "Helvetica Neue", "Helvetica", "Arial", 
     "Roboto", "Ubuntu", "Segoe UI", "Fira Sans", "Droid Sans", sans-serif;
-  --ff-serif: "Ivy Journal", "Adobe Caslon Pro", 
+  --ff-serif: "Amiri", "Ivy Journal", "Adobe Caslon Pro", 
     "Goudy Old Style", "Athelas", "Californian FB", "Georgia Pro", Georgia, serif;
-  --ff-disp: "SangBleu Empire", "F37 Bella", "acta-display", 
+  --ff-serif-alt: "Playfair Display", "Ivy Journal", "Adobe Caslon Pro", 
+    "Goudy Old Style", "Athelas", "Californian FB", "Georgia Pro", Georgia, serif;
+  --ff-disp: "Beth Ellen", "SangBleu Empire", "F37 Bella", "acta-display", 
     "Questa Grande", "QuestaGrande", "Didot", "Didonesque", 
     "Georgia Pro", Georgia, serif;
   --ff-disp-sm: "SangBleu Kingdom", "Questa", "Georgia Pro", Georgia, serif;
@@ -41,8 +45,8 @@
 
 /* Colours */
 
-  --grey1: #333;
-  --grey2: #5a5a5a;
+  --grey1: rgb(58, 58, 58);
+  --grey2: #636060;
   --grey3: #b2b2b2;
   --grey4: #d0d0d0;
   --grey5: #f6f6f6;
@@ -258,6 +262,7 @@ h3 {
 
 h2 {
   font-size: var(--f-xlg);
+  font-family: var(--ff-serif-alt);
   line-height: 1.25;
   margin: 1em 0 0.5em;
   font-weight: 200;
@@ -295,7 +300,7 @@ h1 {
   h1 {
     font-family: var(--ff-disp);
     font-size:var(--f-hero);
-    line-height: 1
+    line-height: 1;
     font-weight: 400;
   }
 }
